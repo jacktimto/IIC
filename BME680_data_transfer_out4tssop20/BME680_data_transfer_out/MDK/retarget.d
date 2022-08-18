@@ -1,0 +1,13 @@
+.\retarget.o: src\retarget.c
+.\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\retarget.o: .\inc\CMS32L051.h
+.\retarget.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\retarget.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\retarget.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\retarget.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\retarget.o: C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h
+.\retarget.o: .\RTE\Device\CMS32L051TS20\userdefine.h
+.\retarget.o: .\inc\sci.h

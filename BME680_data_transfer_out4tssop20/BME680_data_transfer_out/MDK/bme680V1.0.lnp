@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+".\src\libalgobsec.lib"
+".\main.o"
+".\bme680.o"
+".\retarget.o"
+".\sci.o"
+".\sci_user.o"
+".\bsec_integration.o"
+".\common_porting.o"
+".\gpio.o"
+".\intp.o"
+".\sim_i2c_slave.o"
+".\wdt.o"
+".\wdt_user.o"
+".\startup_cms32l051.o"
+".\system_cms32l051.o"
+--entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\bme680V1.0.map" -o .\bme680V1.0.2

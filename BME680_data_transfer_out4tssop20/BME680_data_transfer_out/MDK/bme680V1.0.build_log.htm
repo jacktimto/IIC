@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 11, 11, LIC=EXJT4-FP9SW-VEZHA-12PGW-N70GB-NZRE4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      UL2CM3.DLL V1.164.7.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\clion_work\BME680_data_transfer_out4tssop20\BME680_data_transfer_out\MDK\iicaMasterSendReceive.uvprojx
+Project File Date:  08/12/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'CMS32L051'
+compiling bme680.c...
+compiling common_porting.c...
+compiling retarget.c...
+compiling main.c...
+compiling sci_user.c...
+compiling bsec_integration.c...
+src\bsec_integration.c(103): warning:  #177-D: variable "bsec_status"  was declared but never referenced
+      bsec_library_return_t bsec_status = BSEC_OK;
+src\bsec_integration.c(183): warning:  #550-D: variable "bme680_status"  was set but never used
+      int8_t bme680_status = BME680_OK;
+src\bsec_integration.c(243): warning:  #550-D: variable "bme680_status"  was set but never used
+      int8_t bme680_status = BME680_OK;
+src\bsec_integration.c(339): warning:  #550-D: variable "static_iaq_accuracy"  was set but never used
+      uint8_t static_iaq_accuracy = 0;
+src\bsec_integration.c(341): warning:  #550-D: variable "co2_accuracy"  was set but never used
+      uint8_t co2_accuracy = 0;
+src\bsec_integration.c(343): warning:  #550-D: variable "breath_voc_accuracy"  was set but never used
+      uint8_t breath_voc_accuracy = 0;
+src\bsec_integration.c(344): warning:  #550-D: variable "comp_gas_value"  was set but never used
+      float comp_gas_value = 0.0f;
+src\bsec_integration.c(345): warning:  #550-D: variable "comp_gas_accuracy"  was set but never used
+      uint8_t comp_gas_accuracy = 0;
+src\bsec_integration.c(346): warning:  #550-D: variable "gas_percentage"  was set but never used
+      float gas_percentage = 0.0f;
+src\bsec_integration.c(347): warning:  #550-D: variable "gas_percentage_acccuracy"  was set but never used
+      uint8_t gas_percentage_acccuracy = 0;
+src\bsec_integration.c: 10 warnings, 0 errors
+assembling startup_CMS32L051.s...
+compiling sci.c...
+compiling gpio.c...
+compiling intp.c...
+compiling wdt.c...
+compiling wdt_user.c...
+compiling Sim_I2C_Slave.c...
+compiling system_CMS32L051.c...
+linking...
+Program Size: Code=42344 RO-data=2332 RW-data=344 ZI-data=7136  
+FromELF: creating hex file...
+".\bme680V1.0.2" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Cmsemicon
+                http://www.mcu.com.cn/pack/Cmsemicon.CMS32L051.1.2.0.pack
+                Cmsemicon.CMS32L051.1.2.0
+                Cmsemicon CMS32L051 Device Family Pack
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/CMS32L051TS20
+  ./RTE/_CMS32L051
+  C:/Users/jackt/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/jackt/AppData/Local/Arm/Packs/Cmsemicon/CMS32L051/1.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Cmsemicon::Device:Startup:1.0.0
+      Source file:   Device/Source/system_CMS32L051.c
+      Include file:  Device/Source/userdefine.h
+      Source file:   Device/Source/ARM/startup_CMS32L051.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

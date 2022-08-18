@@ -1,0 +1,13 @@
+.\sim_i2c_slave.o: src\Sim_I2C_Slave.c
+.\sim_i2c_slave.o: .\inc\Sim_I2C_Slave.h
+.\sim_i2c_slave.o: .\inc\CMS32L051.h
+.\sim_i2c_slave.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\sim_i2c_slave.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\sim_i2c_slave.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\sim_i2c_slave.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\sim_i2c_slave.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\sim_i2c_slave.o: C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h
+.\sim_i2c_slave.o: .\inc\gpio.h
+.\sim_i2c_slave.o: .\RTE\Device\CMS32L051TS20\userdefine.h
+.\sim_i2c_slave.o: .\inc\intp.h
+.\sim_i2c_slave.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,158 @@
+Dependencies for Project 'iicaMasterSendReceive', Target 'CMS32L051': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\libalgobsec.lib)(0x5EF366EA)()
+F (.\main.c)(0x62F5E6E5)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\main.o --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DD)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\sci.h)(0x62787069)
+I (.\inc\gpio.h)(0x61EF8A2A)
+I (.\inc\common_porting.h)(0x62786A9F)
+I (.\inc\bme680.h)(0x626DFF5D)
+I (.\inc\bme680_defs.h)(0x626CE711)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DD)
+I (.\inc\bsec_integration.h)(0x62941E47)
+I (.\inc\bsec_interface.h)(0x5EF366EC)
+I (.\inc\bsec_datatypes.h)(0x62AD76A0)
+I (.\inc\intp.h)(0x62876F32)
+I (.\inc\Sim_I2C_Slave.h)(0x62955968)
+I (.\inc\wdt.h)(0x61EF8A2A)
+F (.\src\bme680.c)(0x62785912)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\bme680.o --depend .\bme680.d)
+I (.\inc\bme680.h)(0x626DFF5D)
+I (.\inc\bme680_defs.h)(0x626CE711)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DD)
+I (.\inc\common_porting.h)(0x62786A9F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+F (.\src\retarget.c)(0x61EF8A2A)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\retarget.o --depend .\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x602577D5)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\sci.h)(0x62787069)
+F (.\src\sci.c)(0x61EF8A2A)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\sci.o --depend .\sci.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D2)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\sci.h)(0x62787069)
+I (.\inc\dma.h)(0x61EF8A2A)
+F (.\src\sci_user.c)(0x627DB079)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\sci_user.o --depend .\sci_user.d)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\sci.h)(0x62787069)
+F (.\src\bsec_integration.c)(0x629EF264)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\bsec_integration.o --depend .\bsec_integration.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (.\inc\bsec_integration.h)(0x62941E47)
+I (.\inc\bme680.h)(0x626DFF5D)
+I (.\inc\bme680_defs.h)(0x626CE711)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DD)
+I (.\inc\bsec_interface.h)(0x5EF366EC)
+I (.\inc\bsec_datatypes.h)(0x62AD76A0)
+I (.\inc\common_porting.h)(0x62786A9F)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+F (.\src\common_porting.c)(0x628B5979)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\common_porting.o --depend .\common_porting.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DD)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\sci.h)(0x62787069)
+I (.\inc\common_porting.h)(0x62786A9F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+F (.\src\gpio.c)(0x61EF8A2A)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\gpio.o --depend .\gpio.d)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\gpio.h)(0x61EF8A2A)
+F (.\src\intp.c)(0x627DD1D8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\intp.o --depend .\intp.d)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\intp.h)(0x62876F32)
+F (.\src\Sim_I2C_Slave.c)(0x6295D15C)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\sim_i2c_slave.o --depend .\sim_i2c_slave.d)
+I (.\inc\Sim_I2C_Slave.h)(0x62955968)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\gpio.h)(0x61EF8A2A)
+I (.\RTE\Device\CMS32L051TS20\userdefine.h)(0x627DF09A)
+I (.\inc\intp.h)(0x62876F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+F (.\src\wdt.c)(0x61EF8A2A)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\wdt.o --depend .\wdt.d)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\wdt.h)(0x61EF8A2A)
+F (.\src\wdt_user.c)(0x61EF8A2A)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\wdt_user.o --depend .\wdt_user.d)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+I (.\inc\wdt.h)(0x61EF8A2A)
+F (RTE/Device/CMS32L051TS20/startup_CMS32L051.s)(0x62889407)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\startup_cms32l051.lst --xref -o .\startup_cms32l051.o --depend .\startup_cms32l051.d)
+F (RTE/Device/CMS32L051TS20/system_CMS32L051.c)(0x629EF30E)(--c99 --gnu -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\inc-I.\RTE\Device\CMS32L051TS20-I.\RTE\_CMS32L051-IC:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\system_cms32l051.o --depend .\system_cms32l051.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (.\inc\CMS32L051.h)(0x61EF8A2A)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h)(0x61EF8A2A)
+F (RTE/Device/CMS32L051TS20/userdefine.h)(0x627DF09A)()

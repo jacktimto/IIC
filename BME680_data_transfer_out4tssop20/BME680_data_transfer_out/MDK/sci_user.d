@@ -1,0 +1,10 @@
+.\sci_user.o: src\sci_user.c
+.\sci_user.o: .\RTE\Device\CMS32L051TS20\userdefine.h
+.\sci_user.o: .\inc\CMS32L051.h
+.\sci_user.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\sci_user.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\sci_user.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\sci_user.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\sci_user.o: C:\Users\jackt\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\sci_user.o: C:\Users\jackt\AppData\Local\Arm\Packs\Cmsemicon\CMS32L051\1.2.0\Device\Include\system_CMS32L051.h
+.\sci_user.o: .\inc\sci.h

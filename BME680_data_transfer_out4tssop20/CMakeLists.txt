@@ -1,0 +1,101 @@
+cmake_minimum_required(VERSION 3.22)
+project(BME680_data_transfer_out4tssop20 C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(BME680_data_transfer_out/MDK/inc)
+include_directories(BME680_data_transfer_out/MDK/RTE/_CMS32L051)
+include_directories(BME680_data_transfer_out/MDK/RTE/Device/CMS32L051TS20)
+include_directories(BME680_data_transfer_out/MDK/src)
+include_directories(CMS32L051/1.2.0/CMSIS)
+include_directories(CMS32L051/1.2.0/CMSIS/Include)
+include_directories(CMS32L051/1.2.0/Device/Include)
+include_directories(CMS32L051/1.2.0/Device/Source)
+include_directories(CMS32L051/1.2.0/Driver/inc)
+
+add_executable(BME680_data_transfer_out4tssop20
+        BME680_data_transfer_out/MDK/inc/bme680.h
+        BME680_data_transfer_out/MDK/inc/bme680_defs.h
+        BME680_data_transfer_out/MDK/inc/bsec_datatypes.h
+        BME680_data_transfer_out/MDK/inc/bsec_integration.h
+        BME680_data_transfer_out/MDK/inc/bsec_interface.h
+        BME680_data_transfer_out/MDK/inc/CMS32L051.h
+        BME680_data_transfer_out/MDK/inc/common_porting.h
+        BME680_data_transfer_out/MDK/inc/dma.h
+        BME680_data_transfer_out/MDK/inc/flash.h
+        BME680_data_transfer_out/MDK/inc/gpio.h
+        BME680_data_transfer_out/MDK/inc/iica.h
+        BME680_data_transfer_out/MDK/inc/intp.h
+        BME680_data_transfer_out/MDK/inc/main.h
+        BME680_data_transfer_out/MDK/inc/sci.h
+        BME680_data_transfer_out/MDK/inc/Sim_I2C_Slave.h
+        BME680_data_transfer_out/MDK/RTE/_CMS32L051/RTE_Components.h
+        BME680_data_transfer_out/MDK/RTE/Device/CMS32L051TS20/system_CMS32L051.c
+        BME680_data_transfer_out/MDK/RTE/Device/CMS32L051TS20/userdefine.h
+        BME680_data_transfer_out/MDK/src/bme680.c
+        BME680_data_transfer_out/MDK/src/bsec_integration.c
+        BME680_data_transfer_out/MDK/src/common_porting.c
+        BME680_data_transfer_out/MDK/src/flash.c
+        BME680_data_transfer_out/MDK/src/flash_user.c
+        BME680_data_transfer_out/MDK/src/gpio.c
+        BME680_data_transfer_out/MDK/src/iica.c
+        BME680_data_transfer_out/MDK/src/iica_user.c
+        BME680_data_transfer_out/MDK/src/intp.c
+        BME680_data_transfer_out/MDK/src/intp_user.c
+        BME680_data_transfer_out/MDK/src/retarget.c
+        BME680_data_transfer_out/MDK/src/sci.c
+        BME680_data_transfer_out/MDK/src/sci_user.c
+        BME680_data_transfer_out/MDK/src/Sim_I2C_Slave.c
+        BME680_data_transfer_out/MDK/main.c
+        CMS32L051/1.2.0/CMSIS/Include/core_cm0plus.h
+        CMS32L051/1.2.0/Device/Include/CMS32L051.h
+        CMS32L051/1.2.0/Device/Include/patch.h
+        CMS32L051/1.2.0/Device/Include/system_CMS32L051.h
+        CMS32L051/1.2.0/Device/Source/ARM/startup_CMS32L051.c
+        CMS32L051/1.2.0/Device/Source/system_CMS32L051.c
+        CMS32L051/1.2.0/Device/Source/userdefine.h
+        CMS32L051/1.2.0/Driver/inc/adc.h
+        CMS32L051/1.2.0/Driver/inc/clk.h
+        CMS32L051/1.2.0/Driver/inc/dma.h
+        CMS32L051/1.2.0/Driver/inc/elc.h
+        CMS32L051/1.2.0/Driver/inc/flash.h
+        CMS32L051/1.2.0/Driver/inc/gpio.h
+        CMS32L051/1.2.0/Driver/inc/iica.h
+        CMS32L051/1.2.0/Driver/inc/intp.h
+        CMS32L051/1.2.0/Driver/inc/key.h
+        CMS32L051/1.2.0/Driver/inc/pcbz.h
+        CMS32L051/1.2.0/Driver/inc/pga.h
+        CMS32L051/1.2.0/Driver/inc/rst.h
+        CMS32L051/1.2.0/Driver/inc/rtc.h
+        CMS32L051/1.2.0/Driver/inc/sci.h
+        CMS32L051/1.2.0/Driver/inc/spi.h
+        CMS32L051/1.2.0/Driver/inc/tim4.h
+        CMS32L051/1.2.0/Driver/inc/wdt.h
+        CMS32L051/1.2.0/Driver/src/adc.c
+        CMS32L051/1.2.0/Driver/src/adc_user.c
+        CMS32L051/1.2.0/Driver/src/clk.c
+        CMS32L051/1.2.0/Driver/src/dma.c
+        CMS32L051/1.2.0/Driver/src/elc.c
+        CMS32L051/1.2.0/Driver/src/flash.c
+        CMS32L051/1.2.0/Driver/src/flash_user.c
+        CMS32L051/1.2.0/Driver/src/gpio.c
+        CMS32L051/1.2.0/Driver/src/iica.c
+        CMS32L051/1.2.0/Driver/src/iica_user.c
+        CMS32L051/1.2.0/Driver/src/intp.c
+        CMS32L051/1.2.0/Driver/src/intp_user.c
+        CMS32L051/1.2.0/Driver/src/key.c
+        CMS32L051/1.2.0/Driver/src/key_user.c
+        CMS32L051/1.2.0/Driver/src/pcbz.c
+        CMS32L051/1.2.0/Driver/src/pga.c
+        CMS32L051/1.2.0/Driver/src/retarget.c
+        CMS32L051/1.2.0/Driver/src/rst.c
+        CMS32L051/1.2.0/Driver/src/rtc.c
+        CMS32L051/1.2.0/Driver/src/rtc_user.c
+        CMS32L051/1.2.0/Driver/src/sci.c
+        CMS32L051/1.2.0/Driver/src/sci_user.c
+        CMS32L051/1.2.0/Driver/src/spi.c
+        CMS32L051/1.2.0/Driver/src/spi_user.c
+        CMS32L051/1.2.0/Driver/src/tim4.c
+        CMS32L051/1.2.0/Driver/src/tim4_user.c
+        CMS32L051/1.2.0/Driver/src/wdt.c
+        CMS32L051/1.2.0/Driver/src/wdt_user.c)
